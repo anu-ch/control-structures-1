@@ -1,0 +1,23 @@
+Write a program to determine whether n is a factorial number or not. A factorial number is a number that is a factorial of another number.
+
+Input Format:
+
+Input consists of a single integer which corresponds to n.
+
+Output Format:
+
+Output consists of a string - “yes” or “no”
+
+#program
+
+a=int(input())
+i=1
+b=1
+while b<a:
+    b*=i
+    i+=1
+if(a==b):
+    print("yes")
+else:
+    print("no")
+    
