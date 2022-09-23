@@ -1,0 +1,17 @@
+Write program to reverse a number is discussed here. We can reverse a number using loop and arithmetic operators in both iterative and recursive approaches. 
+
+Input & Output Format:
+
+Input consists of a integer.
+
+Output consists of reversed input.
+
+#program
+
+a=int(input())
+rev=0
+while a>0:
+    b=a%10
+    rev=rev*10+b
+    a//=10
+print(rev)
